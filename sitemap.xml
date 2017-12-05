@@ -7,15 +7,31 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://chirimantecman.github.io/</loc>
-  <lastmod>2017-12-05T02:24:00Z</lastmod>
+  <lastmod>2017-12-05T03:23:00Z</lastmod>
  </url>
  <url>
   <loc>https://chirimantecman.github.io/2012/</loc>
   <lastmod>2017-12-05T02:24:00Z</lastmod>
  </url>
  <url>
+  <loc>https://chirimantecman.github.io/2017/</loc>
+  <lastmod>2017-12-05T03:23:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://chirimantecman.github.io/archive.html</loc>
-  <lastmod>2017-12-05T02:24:00Z</lastmod>
+  <lastmod>2017-12-05T03:23:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://chirimantecman.github.io/authors/</loc>
+  <lastmod>2017-12-05T03:23:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://chirimantecman.github.io/authors/nikola-tesla/</loc>
+  <lastmod>2017-12-05T03:23:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://chirimantecman.github.io/authors/roberto-alsina/</loc>
+  <lastmod>2017-12-05T03:23:00Z</lastmod>
  </url>
  <url>
   <loc>https://chirimantecman.github.io/categories/</loc>
@@ -59,7 +75,7 @@
  </url>
  <url>
   <loc>https://chirimantecman.github.io/listings/hello.py.html</loc>
-  <lastmod>2017-12-05T02:24:00Z</lastmod>
+  <lastmod>2017-12-05T03:23:00Z</lastmod>
  </url>
  <url>
   <loc>https://chirimantecman.github.io/pages/about-nikola/</loc>
@@ -120,6 +136,10 @@
  <url>
   <loc>https://chirimantecman.github.io/pages/theming/</loc>
   <lastmod>2017-12-05T02:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://chirimantecman.github.io/posts/test-post/</loc>
+  <lastmod>2017-12-05T03:23:00Z</lastmod>
  </url>
  <url>
   <loc>https://chirimantecman.github.io/posts/welcome-to-nikola/</loc>
