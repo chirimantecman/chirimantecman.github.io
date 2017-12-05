@@ -181,17 +181,20 @@ THEME_COLOR = '#5670d4'
 #         ("pages/*.md", {"en": "pages", "de": "seiten"}, "page.tmpl"),
 #     )
 
+
 POSTS = (
     ("posts/*.rst", "posts", "post.tmpl"),
     ("posts/*.md", "posts", "post.tmpl"),
     ("posts/*.txt", "posts", "post.tmpl"),
     ("posts/*.html", "posts", "post.tmpl"),
+    ("posts/*.org", "posts", "post.tmpl"),
 )
 PAGES = (
     ("pages/*.rst", "pages", "page.tmpl"),
     ("pages/*.md", "pages", "page.tmpl"),
     ("pages/*.txt", "pages", "page.tmpl"),
     ("pages/*.html", "pages", "page.tmpl"),
+    ("pages/*.org", "pages", "page.tmpl"),
 )
 
 
@@ -279,6 +282,8 @@ COMPILERS = {
     # but is disabled by default as it would conflict
     # with many of the others.
     # "pandoc": ('.rst', '.md', '.txt'),
+    # Org Mode.
+    "orgmode": ('.org',),
 }
 
 # Create by default posts in one file format?
@@ -816,7 +821,8 @@ GITHUB_COMMIT_SOURCE = True
 # Images will be scaled down according to IMAGE_THUMBNAIL_SIZE and MAX_IMAGE_SIZE
 # options, but will have to be referenced manually to be visible on the site
 # (the thumbnail has ``.thumbnail`` added before the file extension by default,
-# but a different naming template can be configured with IMAGE_THUMBNAIL_FORMAT).
+# but a different naming template can be configured with
+# IMAGE_THUMBNAIL_FORMAT).
 
 IMAGE_FOLDERS = {'images': 'images'}
 # IMAGE_THUMBNAIL_SIZE = 400
@@ -1100,7 +1106,8 @@ PRETTY_URLS = True
 # Note: most Nikola-specific extensions are done via the Nikola plugin system,
 #       with the MarkdownExtension class and should not be added here.
 # The default is ['fenced_code', 'codehilite']
-MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.codehilite', 'markdown.extensions.extra']
+MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code',
+                       'markdown.extensions.codehilite', 'markdown.extensions.extra']
 
 # Extra options to pass to the pandoc command.
 # by default, it's empty, is a list of strings, for example
@@ -1266,7 +1273,8 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 #     "rest_docinfo": {"summary": "description", "modified": "updated"},
 #     "markdown_metadata": {"summary": "description", "modified": "updated"}
 # }
-# Other examples: https://getnikola.com/handbook.html#mapping-metadata-from-other-formats
+# Other examples:
+# https://getnikola.com/handbook.html#mapping-metadata-from-other-formats
 
 # If you hate "Filenames with Capital Letters and Spaces.md", you should
 # set this to true.
