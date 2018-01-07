@@ -6,8 +6,12 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>https://chirimantecman.github.io/authors/dohesianone.xml</loc>
+  <lastmod>2018-01-07T17:36:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://chirimantecman.github.io/authors/nikola-tesla.xml</loc>
-  <lastmod>2018-01-07T17:34:00Z</lastmod>
+  <lastmod>2018-01-07T17:36:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://chirimantecman.github.io/authors/roberto-alsina.xml</loc>
@@ -23,7 +27,7 @@
  </sitemap>
  <sitemap>
   <loc>https://chirimantecman.github.io/categories/cat_poetry.xml</loc>
-  <lastmod>2018-01-07T17:34:00Z</lastmod>
+  <lastmod>2018-01-07T17:36:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://chirimantecman.github.io/categories/demo.xml</loc>
@@ -35,7 +39,7 @@
  </sitemap>
  <sitemap>
   <loc>https://chirimantecman.github.io/categories/poetry.xml</loc>
-  <lastmod>2018-01-07T17:34:00Z</lastmod>
+  <lastmod>2018-01-07T17:36:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://chirimantecman.github.io/categories/python.xml</loc>
@@ -51,10 +55,10 @@
  </sitemap>
  <sitemap>
   <loc>https://chirimantecman.github.io/rss.xml</loc>
-  <lastmod>2018-01-07T17:34:00Z</lastmod>
+  <lastmod>2018-01-07T17:36:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://chirimantecman.github.io/sitemap.xml</loc>
-  <lastmod>2018-01-07T17:34:00Z</lastmod>
+  <lastmod>2018-01-07T17:36:00Z</lastmod>
  </sitemap>
 </sitemapindex>
